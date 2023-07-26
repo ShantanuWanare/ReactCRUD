@@ -46,8 +46,8 @@ const Home = () => {
                 <td>{user.email} </td>
 
                 <td>
-                    <Link className="btn btn-primary mr-2" to={`/users/${user.id}`}>View</Link>
-                    <Link className="btn btn-outline-primary mr-2" to={`/users/edit/${user.id}`}>Edit</Link>
+                    <Link className="btn btn-primary mr-2" to={`/users/${user.id}`} style={{ marginRight: "8px" }} >View</Link>
+                    <Link className="btn btn-outline-primary mr-2" to={`/users/edit/${user.id}`} style={{ marginRight: "8px" }}>Edit</Link>
                     <Link className="btn btn-danger" onClick={()=> deleteUser(user.id)}>Delete</Link>
                 </td>
             </tr>

@@ -10,6 +10,8 @@ import AddUser from './components/user/AddUsers';
 import Eidituser from './components/user/EditUsers';
 import Users from './components/user/Users';
 
+// npm run start:dev = to run the project
+
 function App() {
   return (
     <Router>
